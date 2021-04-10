@@ -7,15 +7,11 @@ import random
 # Allows the user to play UNO with the computer -- through the terminal!
 class Uno:
     user_turn = True
-
     user_cards = []
     comp_cards = []
-
     discard_pile = []
-
     turns = 0
     current_card = list()
-
     user_won = False
     comp_won = False
 
